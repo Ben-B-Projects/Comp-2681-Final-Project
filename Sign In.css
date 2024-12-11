@@ -1,0 +1,85 @@
+/*
+
+	Sign In Style Sheet
+	
+	Filename: Sign In.css
+	
+*/
+body {
+	display: block;
+	background-image: url("Images/canyons.png");
+	background-repeat: no-repeat;
+	background-position: center 32px;
+	background-size: 80vw;
+	background-color: #222222;
+	margin: 0px;
+	margin-top: 5px;
+}
+
+#signInAttempt {
+	display: block;
+	width: 40vw;	
+	margin-left: 10vw;
+}
+
+#signInAttempt p{
+	color: #e4e4e4;
+	background-color: rgba(26, 27, 32, 0.6);
+	border: 2px solid rgba(26, 27,32,0.9);
+}
+
+.output.success {
+	color: green;
+}
+
+@media (max-width: 980px) {
+  body {
+    background-size: 780px;
+  }
+}
+
+.container {
+	margin-top: 100px;
+	margin-left: 10vw;
+	padding: 20px;
+	width: 400px;
+	border: 3px solid rgba(26, 27, 32, 0.3);
+}
+
+
+.email {
+	margin-bottom: 24px;
+}
+
+.password {
+	margin-bottom: 34px;
+}
+
+input[type=text] {
+	width: 80%;
+	height: 24px;
+}
+
+button[type=submit] {
+	height: auto;
+	background-color: #007fbf;
+}
+
+button[type=submit]:hover {
+	background-color: #006699;
+}
+
+h2 {
+	margin: 2px;
+	font-family: Helvetica;
+	font-size: 24px;
+	color: #e4e4e4;
+}
+
+h3 {
+	margin: 2p;
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #e4e4e4;
+	text-align: top;
+}

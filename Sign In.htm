@@ -1,0 +1,55 @@
+<!--
+
+   Cross Sign In html doc
+   Author: Ben Boates
+   Date:   2023-05-04
+
+   Filename: Sign In.htm
+   
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="Sign In.css">
+<link rel="stylesheet" href="NavigationStyle.css">
+<title>Sign In</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<!-- Header contains the three games, sign in, support and cross-referneces -->
+<nav class ="horizontal"> 
+	<ul>			
+		<li><img src="Images/CCII.png" /><a href="CCII.htm">Carrier Command II</a></li>
+		<li><img src="Images/Stormworks.png" /><a href="Stormworks.htm">Stormworks</a></li>
+		<li><img src="Images/True Legacy.png" /><a href="True Legacy.htm">True Legacy</a></li>
+		<li><img src="Images/SignIn.png" /><a href="index.htm"><c>Sign In</c></a></li>
+		<li><img src="Images/Support.png" /><a href="Support.htm"><c>Support</c></a></li>
+		<li><img src="Images/CrossRef.png" /><a href="Cross References.htm">Cross References</a></li>
+	</ul>
+</nav>
+<a name="form"></a>
+<a name="formval"></a>
+<a name="rgba"></a>
+<form name="signIn" id="signIn" >
+	<div class="container">
+		<div class="email">
+			<label for="email"><h2>Email</h2></label>
+			<input type="text" id="email" name="email" >
+		</div>
+		<div class="password">
+			<label for="password"><h2>Password</h2></label>
+			<input type="text" id="password" name="password" >
+		</div>
+		<input id="submit" value="Sign In" type="button" />
+	</div>
+</form>
+
+<div id="signInAttempt"></div>
+
+<script type="text/javascript" src="JS/passwordval.js"></script>
+</body>
+

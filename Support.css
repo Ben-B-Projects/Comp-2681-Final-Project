@@ -1,0 +1,52 @@
+/*
+
+	Support Style Sheet
+	
+	Filename: Support.css
+	
+*/
+body {
+	background-color: #222222;
+	margin: 0px;
+	margin-top: 5px;
+}
+
+@media (max-width: 1079px) {
+	nav.horizontal {
+		margin-bottom: 72px;
+	}
+}
+
+@media (max-width: 565px) {
+	nav.horizontal {
+		margin-bottom: 143px;
+	}
+}
+
+content {
+	display: block;
+	margin-left: 45px;
+}
+
+content img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+h1 {
+	font-family: Helvetica;
+	color: #e4e4e4;
+}
+
+h2 {
+	font-family: Helvetica;
+	color: #e4e4e4;
+}
+
+h3 {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Helvetica;
+	color: #e4e4e4;
+}

@@ -1,0 +1,75 @@
+/*
+
+	Navigation Style Sheet
+	
+	Filename: NavigationStyle.css
+	
+*/
+
+nav {
+	display: block;
+}
+
+nav.horizontal {	
+	width: 100%;
+	position: relative;
+	background-color: #222222;
+	height: 75px;
+	
+}
+
+nav.horizontal ul {
+	list-style: none;
+	margin: 0px;
+	background-color: #721215;
+	margin-bottom: 10px;
+	
+	
+}
+
+nav.horizontal ul li {
+	display: inline-block;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	vertical-align: top;
+	border: 1px solid black;
+	width: 95px;
+	height: 69px;
+	transform: skew(-30deg);
+	text-align: center;
+	background-color: #222222;
+}
+
+nav.horizontal ul li img {
+	width: 32px;
+	padding-top: 3px;
+	margin-bottom: -7px;
+	padding-right: 20px;
+	transform: skew(30deg);
+	opacity: 0.8;
+}
+
+nav.horizontal ul li a {
+	display: flex;
+	align-items: center;
+	margin-left: 11px;
+	height: 34px;	
+	transform: skew(30deg);
+	text-decoration: none;
+	color: #999999;	
+}
+
+nav.horizontal ul li a:hover {
+	color: gray;
+}
+
+nav.horizontal ul li img:hover {
+	opacity: 1;	
+}
+
+nav.horizontal ul li a c {
+	margin-left: 14px;	
+	margin-top: 5px;
+}

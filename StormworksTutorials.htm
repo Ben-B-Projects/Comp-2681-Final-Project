@@ -1,0 +1,105 @@
+<!--
+
+   StormworksTutorials html doc
+   Author: Ben Boates
+   Date:   2023-05-05
+
+   Filename: StormworksTutorials.htm
+   
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="StormworksTutorialsStyle.css">
+<link rel="stylesheet" href="NavigationStyle.css">
+<title>StormworksTutorialsNew</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+		function toggleContent(id) {
+			var content = document.getElementById(id);
+			if (content.style.display === "none") {
+				content.style.display = "block";
+			} else {
+				content.style.display = "none";
+			}
+		}
+</script>
+</head>
+<body>
+
+<header>
+	<img src="Images/Stormworks Full.png" />
+</header>
+
+<article>
+	<h1> Stormworks Tutorials & Info </h1>
+</article>
+
+<a name="sublevel"></a>
+<content>		
+	<div class="naviconblock">				
+		<button class="buttonblocks" onclick="toggleContent('allrowblocks')"><img src="Images/navicon.png" width="30px"/><h2>Blocks</h2></button>
+		<div id="allrowblocks" class="allrowblocks">
+		<div class="row">
+		<div class="left">
+			<h2>Electric Motors</h2>
+			<img src="Images/Motor.png">
+		</div>
+		<div class="right">
+			<h2>Motors use electricity to produce rotational force.</h2>
+			<p>Connect electricity, attach a pipe to it's output power, and send a number between -1 to 1 and the motor will try to spin at -20 to 20 rps to match this.<p>
+		</div>
+		</div>
+	
+		<div  class="row">
+		<div class="left">
+			<h2>Pump</h2>
+			<img src="Images/Pump.png">
+		</div>
+		<div class="right">
+			<h2>Pumps use electricity to push liquids or gases.</h2>
+			<p>Connect electricity, attach the ringed side in the direction of output flow, then send a boolean signal to enable it.</p>
+		</div>
+		</div>
+	
+		<div  class="row">
+		<div class="left">
+			<h2>Prebuilt Engine</h2>
+			<img src="Images/Engine.png">
+		</div>
+		<div class="right">
+			<h2>Prebuilt engines use air, diesel, cooling, and produce rotational force and exhaust.</h2>
+			<p>Connect electricity to run it's starter, connect air & diesel to their inputs, and connect a cooling solution to the cooling input and output.</p>
+			<p>Once the inputs are connected, connect exhaust to both outputs, and ensure it is piped to outside air.</p>
+			<p>To control the engine, send a boolean signal to run the starter, and send a number between 0 to 1 to control the throttle which changes the amount of fuel and air being used to produce power.</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/lrgEjhiaF3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+		</div>	
+	</div>
+	
+	
+	
+	<div class="naviconlogic">				
+		<button class="buttonlogic" onclick="toggleContent('allrowlogic')"><img src="Images/navicon.png" width="30px"/><h2>Logic</h2></button>		
+		<div id="allrowlogic" class="alllogicblocks">
+		<div class="row">
+		<div class="left">
+			<h2>Microcontrollers</h2>
+			<img src="Images/Microcontroller.png">
+		</div>
+		<div class="right">
+			<h2>Microcontrollers are extremely customizable controllers for to control boolean, number, composite, audio, and visual signals.</h2>
+			<p>Start by opening the MC editor, name your new controller, and add nodes for each input and output you'll need, then adjust the nodes to fit seperately on the schematic.</p>
+			<p>Open the logic editor, seperate out each node, then using the logic gate inventory place down the gates you need and attach them up as necessary. Once you save your MC you can use it from your editor inventory</p>
+			<iframe src="https://www.youtube.com/embed/jCxRelSzKI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+	</div>
+	</div>
+			
+			
+	</div>
+	</div>
+</content>
+</body>

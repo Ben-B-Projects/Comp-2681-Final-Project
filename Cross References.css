@@ -1,0 +1,68 @@
+/*
+
+	Cross References Style Sheet
+	
+	Filename: Cross References.css
+	
+*/
+
+body {
+	display: block;
+	background-color: #222222;
+	margin: 0px;
+	margin-top: 5px;
+}
+
+content {
+	display: block;
+	margin-top: 25px;
+}
+
+content p {
+	margin-top: 25px;
+	margin-left: 10px;	
+	width: 65vw;
+}
+
+article {
+	position: absolute;
+	top: 80px;
+	right: 0;
+	width: 31vw;
+}
+
+@media (max-width: 1079px) {
+	article {
+		margin-top: 106px;
+	}
+}
+
+@media (max-width: 565px) {
+	article {
+		margin-top: 177px;
+	}
+}
+
+@media (max-width: 1079px) {
+	content {
+		margin-top: 177px;
+	}
+}
+
+article img {
+	
+	float: right;
+	width: 30vw;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #e4e4e4;	
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #e4e4e4;	
+}

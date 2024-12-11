@@ -1,0 +1,123 @@
+/*
+
+	Stormworks Style Sheet
+	
+	Filename: StormworksStyle.css
+	
+*/
+
+header {
+	display: block;
+	width: 100vw;
+}
+
+header img {
+	width: 100% !important;
+}
+
+article {
+	display: block;
+	width: 100vw;
+	text-align: center;
+}
+
+.btn {
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.btn h2 {
+	font-size: 30px;
+}
+
+.naviconblock {
+	width: 95vw;
+}
+
+.buttonblocks {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.naviconlogic {
+	width: 95vw;
+}
+
+.buttonlogic {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.allrowblocks {
+	display: none;
+}
+
+#allrowlogic {
+	display: none;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 20% 50%;
+	align-items: center;
+	border-bottom: 3px solid #222222;	
+}
+
+.left {
+	padding: 20px;
+	border-right: 3px solid #222222;
+	background-color: #070909;
+	border-bottom: 3px solid #ffffff;
+	height: 90%;
+}
+
+.left h2 {
+	margin-bottoms: 10px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #e4e4e4;
+}
+
+.left img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-top: 10px;
+}
+
+.right {
+	padding: 20px;
+}
+
+.right p {
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+
+.right h2 {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.right iframe {
+	width: 560px;
+	height: 315px;
+}
+
+@media (max-width: 866px) {
+	.right iframe {
+		width: 64vw;
+		height: 36vw;
+	}
+}
